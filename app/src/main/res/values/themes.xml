@@ -12,6 +12,8 @@
         <item name="android:textColorSecondary">@color/text_dim</item>
     </style>
 
+    <style name="Txt" />
+
     <style name="Txt.Title">
         <item name="android:textColor">@color/text</item>
         <item name="android:textSize">26sp</item>
