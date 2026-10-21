@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBack"
+            style="@style/Btn.Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Voltar" />
+
+        <TextView
+            style="@style/Txt.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Configurações" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/swDark"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="12dp"
+            android:text="Tema escuro"
+            android:textColor="@color/text"
+            android:textSize="16sp" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/swHaptics"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Vibração ao acertar a cabeça"
+            android:textColor="@color/text"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvSize"
+            style="@style/Txt.Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
+        <SeekBar
+            android:id="@+id/seekSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100" />
+
+        <TextView
+            android:id="@+id/tvSpeed"
+            style="@style/Txt.Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
+        <SeekBar
+            android:id="@+id/seekSpeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100" />
+
+        <TextView
+            style="@style/Txt.Dim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Aim Master FF 1.1.0 — todos os dados ficam apenas no seu aparelho." />
+    </LinearLayout>
+</ScrollView>

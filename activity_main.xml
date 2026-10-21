@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/menuContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:letterSpacing="0.08"
+            android:text="AIM MASTER FF"
+            android:textColor="@color/accent"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/Txt.Dim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Treino de precisão para jogadores de Free Fire" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAim"
+            style="@style/Btn.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Simulador de mira" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnFlick"
+            style="@style/Btn.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Treino de capa" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDemo"
+            style="@style/Btn.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Demonstração da capa" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSens"
+            style="@style/Btn.Secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Sensibilidade" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStats"
+            style="@style/Btn.Secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Estatísticas" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSettings"
+            style="@style/Btn.Secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Configurações" />
+
+        <TextView
+            style="@style/Txt.Dim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="App independente de treino. Não é afiliado à Garena, não acessa o Free Fire, não pede senhas e não usa internet." />
+    </LinearLayout>
+</ScrollView>
