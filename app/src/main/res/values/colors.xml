@@ -1,0 +1,12 @@
+<resources>
+    <color name="bg">#F4F6FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface2">#D9DEE8</color>
+    <color name="text">#11151C</color>
+    <color name="text_dim">#556070</color>
+    <color name="accent">#FF5A1F</color>
+    <color name="accent2">#00A9D6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="good">#2ECC71</color>
+    <bool name="light_status">true</bool>
+</resources>
